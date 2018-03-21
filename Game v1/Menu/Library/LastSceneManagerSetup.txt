@@ -1,0 +1,4 @@
+sceneSetups:
+- path: C:/Users/Deqn/Desktop/Final Product/Game/Assets/Scenes/MainMenuScene.unity
+  isLoaded: 1
+  isActive: 1
