@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
 public class HeartManagment: MonoBehaviour
 {
@@ -36,10 +37,9 @@ public class HeartManagment: MonoBehaviour
         currentHeartToHide--;
 
         if(currentHeartToHide <= 0)
-        {
-            playerHealth.Respawn();
-            Show();
-            
+		{
+			Debug.Log ("YouDied");
+			SceneManager.LoadScene (4);
         }
 
     }
