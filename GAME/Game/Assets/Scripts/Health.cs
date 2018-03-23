@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Health: MonoBehaviour
 {   //attached to player
@@ -20,8 +21,7 @@ public class Health: MonoBehaviour
 
     public void Respawn()
     {
-        gameObject.transform.position = WhereToSpawn.position;
-        heartManager.Show();
+		SceneManager.LoadScene (4);
     }
 
 
