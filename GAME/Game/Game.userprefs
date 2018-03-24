@@ -1,8 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Health.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelMenu.cs">
     <Files>
-      <File FileName="Assets\Scripts\Health.cs" Line="24" Column="30" />
+      <File FileName="Assets\Scripts\LevelMenu.cs" Line="29" Column="25" />
+      <File FileName="Assets\Scripts\MainMenuScripts.cs" Line="12" Column="6" />
+      <File FileName="Assets\Scripts\PauseMenu.cs" Line="37" Column="37" />
+      <File FileName="Assets\Scripts\YouDiedButtons.cs" Line="17" Column="29" />
+      <File FileName="Assets\Scripts\Health.cs" Line="29" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -6,13 +6,10 @@ using UnityEngine.SceneManagement;
 public class MainMenuScripts : MonoBehaviour {
     public void StartFunc()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene("LevelMenu");
     }
     public void QuitFunc()
     {
-        Time.timeScale = 1f;
-        
         Application.Quit();
     }
 }

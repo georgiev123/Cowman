@@ -4,16 +4,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class YouDiedButtons : MonoBehaviour {
+	
+	private  string PreviousScene ;
+
 	public void TryAgain(){
-		Time.timeScale = 1f;
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+		string sceneName = PlayerPrefs.GetString("lastLoadedScene");
+		SceneManager.LoadScene(sceneName);
 	}
 	public void Back_to_Levels(){
-		Time.timeScale = 1f;
-		SceneManager.LoadScene(1);
+		SceneManager.LoadScene("LevelMenu");
 	}
 	public void QuitMainMenu(){
-		Time.timeScale = 1f;
-		SceneManager.LoadScene(0);
+		SceneManager.LoadScene("MainMenuScene");
 	}
 }

@@ -21,6 +21,7 @@ public class Health: MonoBehaviour
 
     public void Respawn()
     {
+		PlayerPrefs.SetString ("lastLoadedScene", SceneManager.GetActiveScene ().name);
 		SceneManager.LoadScene (4);
     }
 
