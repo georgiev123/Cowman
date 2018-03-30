@@ -45,4 +45,12 @@ public class PauseMenu : MonoBehaviour {
         SceneManager.LoadScene("MainMenuScene");
         Debug.Log("Quit!");
     }
+	public void Inventory(){
+		Time.timeScale = 1f;
+		SceneManager.LoadScene (-1);
+	}
+	public void Upgrade(){
+		Time.timeScale = 1f;
+		SceneManager.LoadScene (-1);
+	}
 }
