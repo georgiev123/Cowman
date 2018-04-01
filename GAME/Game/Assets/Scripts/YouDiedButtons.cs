@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class YouDiedButtons : MonoBehaviour {
 	
-	private  string PreviousScene ;
+	//private  string PreviousScene ;
 
 	public void TryAgain(){
 		string sceneName = PlayerPrefs.GetString("lastLoadedScene");
